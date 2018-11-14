@@ -2,6 +2,15 @@
   padding: 10px;
 }
 
+.intro {
+  border-radius: 3px;
+  margin: 0.5rem;
+  font-size: 1.3rem;
+  color: #ccc;
+  padding: 1rem;
+  background: #444;
+}
+
 .btn {
   background: #5851ff;
   color: white;

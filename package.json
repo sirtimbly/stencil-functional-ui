@@ -6,6 +6,7 @@
   "scripts": {
     "build": "stencil build --prerender",
     "start": "stencil build --dev --watch --serve",
+    "css": "frets-styles-generator ./src/ -t './templates/stencil_dom.js'",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
@@ -25,6 +26,11 @@
   },
   "homepage": "https://github.com/ionic-team/stencil",
   "devDependencies": {
-    "tailwindcss": "^0.7.2"
+    "@types/jest": "23.3.9",
+    "@types/puppeteer": "1.10.0",
+    "frets-styles-generator": "0.1.8",
+    "jest": "23.6.0",
+    "jest-cli": "23.6.0",
+    "puppeteer": "1.8.0"
   }
 }

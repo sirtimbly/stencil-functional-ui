@@ -110,6 +110,7 @@
         }
 
         get appHome() { return this.add("app-home"); }
+get intro() { return this.add("intro"); }
 get btn() { return this.add("btn"); }
 
 }
