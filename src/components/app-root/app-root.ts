@@ -15,9 +15,7 @@ export class AppRoot {
   message: string = "hello world";
   render() {
     return $.div.h(
-      $.header.headerBar.h(
-        t$("h1").f2.tc.pa2.white_50.h("Stencil App Starter")
-      ),
+      $.header.headerBar.h(t$("h1").f2.tc.pa2.blue.h("Stencil App Starter")),
       router(),
       $.div.message.h("Root message attribue: " + this.message)
     );

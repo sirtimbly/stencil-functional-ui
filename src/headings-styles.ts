@@ -110,8 +110,6 @@
         }
 
         get h1() { return this.add("h1"); }
-get headerBar() { return this.add("header-bar"); }
-get message() { return this.add("message"); }
 
 }
 

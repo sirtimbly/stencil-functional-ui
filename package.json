@@ -26,11 +26,16 @@
   },
   "homepage": "https://github.com/ionic-team/stencil",
   "devDependencies": {
+    "@stencil/postcss": "^0.1.0",
+    "@types/autoprefixer": "^9.1.1",
     "@types/jest": "23.3.9",
     "@types/puppeteer": "1.10.0",
+    "autoprefixer": "9.3.1",
     "frets-styles-generator": "0.1.8",
     "jest": "23.6.0",
     "jest-cli": "23.6.0",
+    "postcss-import": "12.0.1",
+    "postcss-preset-env": "^6.4.0",
     "puppeteer": "1.8.0"
   }
 }
